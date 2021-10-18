@@ -1,0 +1,90 @@
+
+body{
+    font:12px/1.5 tahoma,'\5FAE\8F6F\96C5\9ED1',sans-serif;
+    background-color: white;
+    height: 1000px;
+    background-image: linear-gradient(to top,  #ad9e8b 0%,#ffffff 100%);
+}
+
+ul,ol,li{
+    list-style: none;
+}
+
+a{
+    color: #fefefe!important;
+    font-size: 16px;
+    text-decoration: none;
+}
+
+h4{
+    font-weight: normal;
+    color: white!important;
+    margin-top: 5px!important;
+    font-size: 18px;
+    letter-spacing: 1px;
+}
+
+p{
+    color: #aeaeae;
+    font-size: 11px;
+}
+
+video{
+    border: 0px solid transparent;
+    outline:none;
+}
+
+/* css3动画效果 鼠标移入右箭头动画 */
+@keyframes arrowanim{
+
+    0%, 100%, 54%{
+        -webkit-transform: translateX(0);
+        transform: translateX(0);
+    }
+
+    18%, 36% {
+        -webkit-transform: translateX(4px);
+        transform: translateX(4px);
+    }
+
+    27% {
+        -webkit-transform: translateX(1px);
+        transform: translateX(1px);
+    }
+
+}
+
+/* css3动画效果 下载游戏  图标放大 */
+@keyframes scale1{
+
+    0%,
+    10%,
+    100%,
+    50%,
+    70% {
+        -webkit-transform: scale(1);
+        transform: scale(1);
+    }
+
+    30% {
+        -webkit-transform: scale(.9);
+        transform: scale(.9);
+    }
+
+    40% {
+        -webkit-transform: scale(1.3);
+        transform: scale(1.3);
+    }
+
+    60% {
+        -webkit-transform: scale(1.15);
+        transform: scale(1.15);
+    }
+
+}
+
+
+
+
+
+
